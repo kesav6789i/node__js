@@ -1,7 +1,7 @@
 
 // let {hi,travel1 }= require("./module2.js");  // l1
 // let {hi,travel }= require("./module2.js");  //l2
-
+// let tt = require("./module2.js");           // l3
 let obj = require("./module2.js");
 console.log('im module1');
 let a=10;

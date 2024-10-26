@@ -9,5 +9,5 @@ function add(a,b)
 
 // module.exports = {add1:add,travel1:travel};  // l1
 module.exports = {add,travel};  //l2
-// module.exports = add;
-// module.exports = travel;
+// module.exports = add;    // l3
+// module.exports = travel; // l3
