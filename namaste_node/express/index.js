@@ -1,3 +1,5 @@
+//routing and request handlers
+//using nodemon
 const express = require('express');
 // const path = require('path');
 const app = express();

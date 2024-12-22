@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   
-    "start":"node index.js",
-    "dev" : "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "dev2": "nodemon index2.js",
+    "dev3": "nodemon index3.js",
+    "dev4": "nodemon error_handle" 
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dayjs": "^1.11.13",
     "express": "^4.21.1"
   },
   "devDependencies": {
