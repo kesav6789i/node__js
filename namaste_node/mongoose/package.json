@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev2":"nodemon index2_api.js",
-    "dev1":"nodemon index.js"
+    "dev2": "nodemon index2_api.js",
+    "dev1": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "express": "^4.21.2",
-    "mongoose": "^8.9.2"
+    "mongoose": "^8.9.2",
+    "validator": "^13.12.0"
   }
 }
